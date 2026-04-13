@@ -3,7 +3,7 @@
 A native macOS menu bar dictation app. Press a hotkey, speak, and Sotto pastes
 clean text into the app you were already using.
 
-https://github.com/user-attachments/assets/ab989043-97b3-4ad0-b98e-7114b82b2288
+https://github.com/user-attachments/assets/16422750-99b9-4e25-baf8-2b1ba4622d7c
 
 _🔊 Turn on sound to hear real-time dictation._
 
