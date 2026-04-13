@@ -5,6 +5,8 @@ clean text into the app you were already using.
 
 https://github.com/user-attachments/assets/ab989043-97b3-4ad0-b98e-7114b82b2288
 
+_🔊 Turn on sound to hear real-time dictation._
+
 - **Soniox** — low-latency cloud transcription with context biasing. Pay-as-
   you-go at about **$0.12 per hour** of dictation. No subscription.
 - **Parakeet** — fully local, on-device transcription. Free, no API key, no
