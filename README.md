@@ -3,9 +3,7 @@
 A native macOS menu bar dictation app. Press a hotkey, speak, and Sotto pastes
 clean text into the app you were already using.
 
-![Sotto in action: press Globe, speak, and Sotto streams a live transcript into the notch, then pastes the final text into Notes](docs/images/hero.gif)
-
-▶ [Watch the demo with audio](docs/images/hero.mp4)
+https://github.com/user-attachments/assets/ab989043-97b3-4ad0-b98e-7114b82b2288
 
 - **Soniox** — low-latency cloud transcription with context biasing. Pay-as-
   you-go at about **$0.12 per hour** of dictation. No subscription.
@@ -312,18 +310,3 @@ Sotto won't use Parakeet until the local model exists.
 **The first paste landed in the wrong app.**
 That's exactly what **Repaste Last Dictation** is for — set the shortcut
 in **Settings → General**, focus the right window, and paste again.
-
----
-
-## Build From Source
-
-```sh
-xcodegen generate
-xcodebuild -project Sotto.xcodeproj -scheme Sotto -configuration Debug build
-```
-
-For a notarized release build:
-
-```sh
-./scripts/build-release.sh
-```
