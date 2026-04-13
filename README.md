@@ -3,7 +3,10 @@
 A native macOS menu bar dictation app. Press a hotkey, speak, and Sotto pastes
 clean text into the app you were already using.
 
-![Sotto in action: press Globe, speak, text appears in the frontmost app](docs/images/hero.gif)
+<video src="docs/images/hero.mp4" controls muted playsinline width="800">
+  Your browser doesn't render embedded video.
+  <a href="docs/images/hero.mp4">Download the demo video</a> instead.
+</video>
 
 - **Soniox** — low-latency cloud transcription with context biasing. Pay-as-
   you-go at about **$0.12 per hour** of dictation. No subscription.
