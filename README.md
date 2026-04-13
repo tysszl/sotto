@@ -15,7 +15,7 @@ _🔊 Turn on sound to hear real-time dictation._
 Sotto lives in your menu bar. There is no dock icon and no window when you
 launch it — look for the waveform icon at the top of your screen.
 
-![The Sotto waveform icon in the macOS menu bar, dropdown open](docs/images/menu-bar-icon.png)
+<img src="docs/images/menu-bar-icon.png" alt="The Sotto waveform icon in the macOS menu bar, dropdown open" width="550">
 
 **Requires macOS 14.4 or later.**
 
@@ -127,7 +127,7 @@ Open **System Settings → Keyboard** and:
   long as it's *not* "Start Dictation").
 - Turn **off** Apple's built-in **Dictation** if you have it on.
 
-![macOS Keyboard settings showing the "Press 🌐 key to" dropdown set to Do Nothing](docs/images/macos-globe-key-setting.png)
+<img src="docs/images/macos-globe-key-setting.png" alt="macOS Keyboard settings showing the &quot;Press 🌐 key to&quot; dropdown set to Do Nothing" width="550">
 
 Apple's docs:
 [Keyboard settings on Mac](https://support.apple.com/guide/mac-help/keyboard-settings-kbdm162/mac)
@@ -143,7 +143,7 @@ pinky — the single best ergonomic upgrade you can make for this app.
 Open **System Settings → Keyboard → Keyboard Shortcuts… → Modifier Keys**,
 then under **Caps Lock Key** choose **🌐 Globe**.
 
-![macOS Modifier Keys dialog with Caps Lock set to 🌐 Globe](docs/images/macos-caps-lock-to-globe.png)
+<img src="docs/images/macos-caps-lock-to-globe.png" alt="macOS Modifier Keys dialog with Caps Lock set to 🌐 Globe" width="550">
 
 Apple's docs:
 [Change the behavior of the modifier keys](https://support.apple.com/guide/mac-help/change-the-behavior-of-the-modifier-keys-mchlp1011/mac).
@@ -161,7 +161,7 @@ In **Sotto → Settings → General → Dictation Hotkey**:
 - Pick a **Recording Mode** (see [below](#recording-modes)) — **Hybrid**
   is the recommended default.
 
-![Sotto's General settings showing the Dictation Hotkey and Recording Mode sections](docs/images/sotto-general-settings.png)
+<img src="docs/images/sotto-general-settings.png" alt="Sotto's General settings showing the Dictation Hotkey and Recording Mode sections" width="550">
 
 ### Using a custom shortcut
 
