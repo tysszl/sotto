@@ -1,0 +1,70 @@
+name: Bug report
+description: Something isn't working the way you expected.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for filing a bug. A little context up front makes it much easier to help.
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What did you do, what did you expect, and what happened instead?
+      placeholder: |
+        Steps:
+        1. …
+        2. …
+
+        Expected: …
+        Actual: …
+    validations:
+      required: true
+
+  - type: input
+    id: sotto-version
+    attributes:
+      label: Sotto version
+      description: See Settings → About.
+      placeholder: "1.1"
+    validations:
+      required: true
+
+  - type: input
+    id: macos-version
+    attributes:
+      label: macOS version
+      description: See  → About This Mac.
+      placeholder: "14.4 Sonoma / 15.2 Sequoia / …"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: engine
+    attributes:
+      label: Which transcription engine?
+      options:
+        - Soniox
+        - Parakeet
+        - Not sure
+    validations:
+      required: true
+
+  - type: dropdown
+    id: hotkey
+    attributes:
+      label: Hotkey setup
+      options:
+        - Globe (fn) key
+        - Globe + Caps Lock remapped
+        - Custom shortcut
+        - Not sure
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Anything else?
+      description: Screenshots, logs from Console.app filtered by `com.sotto.app`, or any other context.
