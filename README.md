@@ -3,6 +3,10 @@
 A native macOS menu bar dictation app. Press a hotkey, speak, and Sotto pastes
 clean text into the app you were already using.
 
+[**Download Sotto 1.2 for macOS**](https://github.com/tysszl/sotto/releases/download/v1.2/Sotto-1.2.dmg)
+
+**Requires macOS 14.4 or later.**
+
 https://github.com/user-attachments/assets/16422750-99b9-4e25-baf8-2b1ba4622d7c
 
 _🔊 Turn on sound to hear real-time dictation._
@@ -17,14 +21,13 @@ launch it — look for the waveform icon at the top of your screen.
 
 <img src="docs/images/menu-bar-icon.png" alt="The Sotto waveform icon in the macOS menu bar, dropdown open" width="550">
 
-**Requires macOS 14.4 or later.**
-
 ---
 
 ## Five-Minute Setup
 
-1. **Download** the latest `.dmg` from
-   [GitHub Releases](https://github.com/tysszl/sotto/releases/latest).
+1. **Download** the latest `.dmg`:
+   [Sotto 1.2](https://github.com/tysszl/sotto/releases/download/v1.2/Sotto-1.2.dmg)
+   ([all releases](https://github.com/tysszl/sotto/releases/latest)).
 2. **Drag Sotto.app into `/Applications`.**
 3. **Launch Sotto** and click the waveform icon in your menu bar →
    **Settings**.
@@ -70,15 +73,15 @@ active.
 | Latency | Low (~real-time streaming) | Low after first warm-up |
 | Cost | **~$0.12 / hour of dictation**, pay-as-you-go | Free |
 | Internet | Required while dictating | Not required |
-| Setup | Paste an API key | One-time **~474 MB** model download |
-| Custom dictionary | ✅ Supported | ❌ Not yet |
-| App profiles (per-app context) | ✅ Supported | ❌ Not yet |
+| Setup | Paste an API key | One-time **~474 MB** model download; saved terms use an additional **~100 MB** support download |
+| Custom dictionary | ✅ Supported | ✅ Supported in Accurate mode |
+| App profiles (per-app context) | ✅ Supported | ✅ Explicit vocabulary supported in Accurate mode |
 | Privacy | Audio + nearby text sent to Soniox; not retained | Stays on your Mac |
 
 **If you're not sure, start with Soniox.** It has the best first-day accuracy
 and the dictionary + app-profile features that make Sotto feel sharp.
 **Pick Parakeet** if you want zero accounts, zero cloud, and zero per-minute
-cost — and you don't mind that custom vocabulary isn't applied yet.
+cost, with saved dictionary terms available in Accurate mode.
 
 ### Setting up Soniox
 
@@ -96,7 +99,10 @@ Soniox docs: <https://soniox.com/docs>.
 1. In Sotto, open **Settings → Transcription**.
 2. Switch the engine picker to **Parakeet**.
 3. Click **Download** to fetch the **~474 MB** model.
-4. (Optional) Leave **Prewarm model in background** on so the first
+4. Leave **Use saved terms** on if you want Parakeet Accurate to use your
+   dictionary and app-profile vocabulary. This may fetch an additional
+   **~100 MB** support model.
+5. (Optional) Leave **Prewarm in background** on so the first
    dictation after launch isn't slow.
 
 ---
